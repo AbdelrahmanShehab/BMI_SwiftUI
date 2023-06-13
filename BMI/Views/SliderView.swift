@@ -24,7 +24,7 @@ struct SliderView: View {
                 
                 Spacer()
                 
-                Text("\(sliderValue, specifier: "%.1f")")
+                Text("\(sliderValue, specifier: "%.2f")")
                     .font(.system(.title3, design: .serif, weight: .semibold))
             }//: HSTACK
             
